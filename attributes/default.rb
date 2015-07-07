@@ -1,1 +1,1 @@
-default['cpp-redist']['version'] = '10.0.40219.1'
+default['vc-redist']['version'] = '10.0.40219.1'

@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: cpp-redist
+# Cookbook Name:: vc-redist
 # Recipe:: default
 #
 # Copyright 2015, Ivan Li
@@ -10,5 +10,5 @@
 include_recipe 'chocolatey'
 
 chocolatey 'vcredist2010' do
-  version node['cpp-redist']['version']
+  version node['vc-redist']['version']
 end

@@ -1,4 +1,4 @@
-cpp-redist Cookbook
+vc-redist Cookbook
 ===================
 Installs Microsoft C++ Redistribution Packages. Both x86 and x64 will be installed.
 
@@ -7,21 +7,21 @@ Requirements
 Runs on Windows.
 
 #### packages
-- `chocolatey` - cpp-redist needs chocolatey to manage the installation.
+- `chocolatey` - vc-redist needs chocolatey to manage the installation.
 
 Attributes
 ----------
-default['cpp-redist']['version'] = '10.0.40219.1'
+default['vc-redist']['version'] = '10.0.40219.1'
 
 Usage
 -----
-Just include `cpp-redist` in your node's `run_list`:
+Just include `vc-redist` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[cpp-redist]"
+    "recipe[vc-redist]"
   ]
 }
 ```
