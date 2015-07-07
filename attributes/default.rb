@@ -1,0 +1,1 @@
+default['cpp-redist']['version'] = '10.0.40219.1'
